@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hotel Bahia Del Sol</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav-menu flex-row">
+          <div class="nav-brand">
+            <img
+              src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/17/26/172667_v3.jpeg"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <ul class="nav-items">
+              <li class="nav-link">
+                <a href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-link">
+                <a href="./servicios.html">Servivios</a>
+              </li>
+              <li class="nav-link">
+                <a href="./quien.html">Quienes Somos</a>
+              </li>
+              <li class="nav-link">
+                <a href="./ubicacion.html">Ubicación</a>
+              </li>
+              <li class="nav-link">
+                <a href="./contactame.html">Contactame</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <form class="edit" action="#" target="" method="get" name="formDatosPersonales">
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+        
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
+        
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email" required />
+
+            <label for="fecha">Fecha de reserva</label>
+            <input type="date" name="fecha" id="fecha" required>
+        
+            <label for="asunto">Asunto</label>
+            <input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+      
+            <input type="submit" name="enviar" value="enviar reserva"/>
+        </form>
+    </main>
+    <footer class="menu">
+        <div>
+          <h3 class="center">Redes sociales</h3>
+        </div>
+        <div>
+          <ul>
+              <li><a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=50361703687" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+              <li><a href="https://v16-webapp.tiktok.com/ba843943689a73584c0a74a398fa8c4c/62e21f77/video/tos/useast2a/tos-useast2a-ve-0068c002/b6aa9aa06e1a4e8da94a9aacb2f77412/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=2318&bt=1159&btag=80000&cs=0&ds=3&ft=eXd.6HyaMyq8Z3Rv5we2NFhoyl7Gb&mime_type=video_mp4&qs=0&rc=aDwzN2Q6ODU7NTo3Zjg1OkBpam9sN3BsdHVqNDMzNzczM0BgNl4tMl9jNWMxLWE1MDI2YSNgNTQxNDBjZGpgLS1kMTZzcw%3D%3D&l=20220727233206010192168066096D0F18target=" target="_blank"><i class="fa-brands fa-tiktok"></i></i></a></li>
+          </ul>
+        </div>
+      </footer>
+  </body>
+</html>
